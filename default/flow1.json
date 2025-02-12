@@ -42,7 +42,15 @@
       "executionEngine" : "INHERITED",
       "flowFileConcurrency" : "UNBOUNDED",
       "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
-      "funnels" : [ ],
+      "funnels" : [ {
+        "componentType" : "FUNNEL",
+        "groupIdentifier" : "64c5081d-ee94-3534-a939-dec4b1657224",
+        "identifier" : "6b60d642-b28b-380b-9461-4ad8db724527",
+        "position" : {
+          "x" : -195.0,
+          "y" : -73.5
+        }
+      } ],
       "groupIdentifier" : "flow-contents-group",
       "identifier" : "64c5081d-ee94-3534-a939-dec4b1657224",
       "inputPorts" : [ ],
