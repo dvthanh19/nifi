@@ -44,6 +44,42 @@
       "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
       "funnels" : [ {
         "componentType" : "FUNNEL",
+        "groupIdentifier" : "f07b839b-53a5-360e-b038-272c9f0f758b",
+        "identifier" : "5f5d56c9-bcc7-3146-b1e1-696029d41f2c",
+        "position" : {
+          "x" : -195.0,
+          "y" : -73.5
+        }
+      } ],
+      "groupIdentifier" : "flow-contents-group",
+      "identifier" : "f07b839b-53a5-360e-b038-272c9f0f758b",
+      "inputPorts" : [ ],
+      "labels" : [ ],
+      "maxConcurrentTasks" : 1,
+      "name" : "Copy of test_group",
+      "outputPorts" : [ ],
+      "position" : {
+        "x" : -123.0,
+        "y" : 24.5
+      },
+      "processGroups" : [ ],
+      "processors" : [ ],
+      "remoteProcessGroups" : [ ],
+      "scheduledState" : "ENABLED",
+      "statelessFlowTimeout" : "1 min"
+    }, {
+      "comments" : "",
+      "componentType" : "PROCESS_GROUP",
+      "connections" : [ ],
+      "controllerServices" : [ ],
+      "defaultBackPressureDataSizeThreshold" : "1 GB",
+      "defaultBackPressureObjectThreshold" : 10000,
+      "defaultFlowFileExpiration" : "0 sec",
+      "executionEngine" : "INHERITED",
+      "flowFileConcurrency" : "UNBOUNDED",
+      "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
+      "funnels" : [ {
+        "componentType" : "FUNNEL",
         "groupIdentifier" : "64c5081d-ee94-3534-a939-dec4b1657224",
         "identifier" : "6b60d642-b28b-380b-9461-4ad8db724527",
         "position" : {
